@@ -1,0 +1,33 @@
+{
+  "name": "modalchemy",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Smart, promise-based JS modals styled with Tailwind CSS",
+  "main": "dist/modalchemy.cjs.js",
+  "module": "dist/modalchemy.esm.js",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "modal",
+    "popup",
+    "tailwind",
+    "js",
+    "vanilla",
+    "promise",
+    "UI"
+  ],
+  "author": "Hasan",
+  "license": "MIT",
+  "peerDependencies": {
+    "tailwindcss": "^3.0.0"
+  },
+  "devDependencies": {
+    "rollup": "^3.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-terser": "^0.3.0"
+  },
+  "scripts": {
+    "build": "node api.js && rollup -c"
+  }
+}
